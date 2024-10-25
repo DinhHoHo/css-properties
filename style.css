@@ -21,7 +21,7 @@ body {
     font-family: 'Roboto';
 }
 
-.header {
+header {
     background-color: #EDEDED;
     text-align: center;
     padding: 5px;
@@ -38,7 +38,7 @@ a:visited {
     text-decoration: underline; 
 }
 
-.header a:hover {
+header a:hover {
     color: #000000be; 
     text-decoration: none;
 }
