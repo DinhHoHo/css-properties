@@ -1,25 +1,19 @@
 .container {
+  box-sizing: border-box;
   position: relative;
 }
 
 .text-block {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto; 
+  width: 700px; height: 150px;
 }
 
 h3 {
   color: white; 
   text-align: center;
-  font-size: 40px; 
-}
-
-.home {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  transform: translate(-50%, -50%);
+  font-size: 30px; 
 }
 
 /* CSS for header */

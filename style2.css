@@ -1,5 +1,6 @@
 .container {
   position: relative;
+  box-sizing: border-box;
 }
 
 .text-block {
@@ -12,9 +13,9 @@
   text-align: center;
 }
 
-.text-block h3 {
+h3 {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /* CSS for header */
